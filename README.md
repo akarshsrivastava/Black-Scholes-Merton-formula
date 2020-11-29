@@ -18,3 +18,25 @@ The standard BSM model is only used to price European options and does not take 
 5. The risk-free rate and volatility of the underlying are known and constant.
 
 6. The returns on the underlying asset are normally distributed.
+
+### In mathematical notation:
+
+#### 𝐂=𝑆𝑁(𝑑1)−𝐾𝑒−𝑟𝑡𝑁(𝑑2)
+
+#### 𝑑1 = (ln(𝑆/𝐾)+(𝑟+𝑠𝑡𝑑𝑒𝑣^2/2)𝑡 ) / 𝑠.√𝑡
+
+#### 𝑑2 = 𝑑1 − 𝑠⋅√𝑡 = (ln(𝑆/𝐾) + (𝑟−𝑠𝑡𝑑𝑒𝑣^2/2)𝑡) / 𝑠⋅√𝑡
+
+where:
+
+C=Call option price
+
+S=Current stock (or other underlying) price
+
+K=Strike price
+
+r=Risk-free interest rate
+
+t=Time to maturity
+
+N=A normal distribution
