@@ -54,3 +54,5 @@ We will work to calculate call option premium for Microsoft (MSFT), with risk fr
 3. Calculating d1 and d2
 
 4. Defining Black-Scholes-Merton formula using d1 and d2
+
+5. Calculating Call option premium for Microsoft (MSFT) 
