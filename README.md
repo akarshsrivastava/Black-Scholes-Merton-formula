@@ -25,7 +25,7 @@ The standard BSM model is only used to price European options and does not take 
 
 #### 𝑑1 = (ln(𝑆/𝐾)+(𝑟+𝑠𝑡𝑑𝑒𝑣^2/2)𝑡 ) / 𝑠.√𝑡
 
-#### 𝑑2 = 𝑑1 − 𝑠⋅√𝑡 = (ln(𝑆/𝐾) + (𝑟−𝑠𝑡𝑑𝑒𝑣^2/2)𝑡) / 𝑠⋅√𝑡
+#### 𝑑2 = 𝑑1 − s⋅√𝑡 = (ln(𝑆/𝐾) + (𝑟−𝑠𝑡𝑑𝑒𝑣^2/2)𝑡) / 𝑠⋅√𝑡
 
 where:
 
@@ -40,3 +40,17 @@ r=Risk-free interest rate
 t=Time to maturity
 
 N=A normal distribution
+
+s = asset volatility
+
+### About the project
+
+We will work to calculate call option premium for Microsoft (MSFT), with risk free rate, r, equal to 2.5% (0.025); the strike price, K, equal to 110.0; and the time horizon, T, equal to 1 year, respectively.
+
+1. Download the data for Microsoft (‘MSFT’) from Yahoo Finance for the period ‘2000-1-1’ until today.
+
+2. Understadning Standard Normal Distribution cummulative distribution function (cdf)
+
+3. Calculating d1 and d2
+
+4. Defining Black-Scholes-Merton formula using d1 and d2
